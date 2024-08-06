@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">diagnosaALLapps</string>
+    <string name="log_in">Log In</string>
+    <string name="login">Login</string>
+    <string name="register">register?</string>
+    <string name="regis">Register</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>

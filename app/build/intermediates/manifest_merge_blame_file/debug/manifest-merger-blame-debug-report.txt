@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.diagnosaallapps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\1abb5cd11afee5d13961a9bdaabfec71\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.diagnosaallapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\1abb5cd11afee5d13961a9bdaabfec71\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\1abb5cd11afee5d13961a9bdaabfec71\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.diagnosaallapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\1abb5cd11afee5d13961a9bdaabfec71\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\1abb5cd11afee5d13961a9bdaabfec71\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:5:5-51:19
+18        android:allowBackup="true"
+18-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\1abb5cd11afee5d13961a9bdaabfec71\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:11:9-35
+27        android:theme="@style/Theme.DiagnosaALLapps" >
+27-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:12:9-53
+28        <activity
+28-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:14:9-22:20
+29            android:name="com.example.diagnosaallapps.HomeActivity"
+29-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:15:13-41
+30            android:exported="false"
+30-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:16:13-37
+31            android:label="@string/title_activity_home"
+31-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:17:13-56
+32            android:theme="@style/Theme.DiagnosaALLapps" >
+32-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:18:13-57
+33            <meta-data
+33-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:19:13-21:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:20:17-52
+35                android:value="" />
+35-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:21:17-33
+36        </activity>
+37        <activity
+37-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:23:9-29:20
+38            android:name="com.example.diagnosaallapps.Profile"
+38-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:24:13-36
+39            android:exported="false" >
+39-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:25:13-37
+40            <meta-data
+40-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:19:13-21:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:20:17-52
+42                android:value="" />
+42-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:21:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:30:9-32:40
+45            android:name="com.example.diagnosaallapps.Upload"
+45-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:31:13-35
+46            android:exported="false" />
+46-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:32:13-37
+47        <activity
+47-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:33:9-35:40
+48            android:name="com.example.diagnosaallapps.Result"
+48-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:34:13-35
+49            android:exported="false" />
+49-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:35:13-37
+50        <activity
+50-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:36:9-38:40
+51            android:name="com.example.diagnosaallapps.Register"
+51-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:37:13-37
+52            android:exported="false" />
+52-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:38:13-37
+53        <activity
+53-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:39:9-41:40
+54            android:name="com.example.diagnosaallapps.Login"
+54-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:40:13-34
+55            android:exported="false" />
+55-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:41:13-37
+56        <activity
+56-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:42:9-50:20
+57            android:name="com.example.diagnosaallapps.MainActivity"
+57-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:43:13-41
+58            android:exported="true" >
+58-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:44:13-36
+59            <intent-filter>
+59-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:45:13-49:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:46:17-69
+60-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:46:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:48:17-77
+62-->C:\Users\Anas Bahiyu Sakti\Downloads\capstoneproject\app\src\main\AndroidManifest.xml:48:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\571833e7668d2705a714de3ade12eacf\transformed\ui-tooling-1.1.1\AndroidManifest.xml:25:9-27:39
+66            android:name="androidx.compose.ui.tooling.PreviewActivity"
+66-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\571833e7668d2705a714de3ade12eacf\transformed\ui-tooling-1.1.1\AndroidManifest.xml:26:13-71
+67            android:exported="true" />
+67-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\571833e7668d2705a714de3ade12eacf\transformed\ui-tooling-1.1.1\AndroidManifest.xml:27:13-36
+68        <activity
+68-->[androidx.compose.ui:ui-test-manifest:1.1.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\35d8c079ae8365e7ea8fa5c38693b353\transformed\ui-test-manifest-1.1.1\AndroidManifest.xml:25:9-27:39
+69            android:name="androidx.activity.ComponentActivity"
+69-->[androidx.compose.ui:ui-test-manifest:1.1.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\35d8c079ae8365e7ea8fa5c38693b353\transformed\ui-test-manifest-1.1.1\AndroidManifest.xml:26:13-63
+70            android:exported="true" />
+70-->[androidx.compose.ui:ui-test-manifest:1.1.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\35d8c079ae8365e7ea8fa5c38693b353\transformed\ui-test-manifest-1.1.1\AndroidManifest.xml:27:13-36
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\9eb1ce56e4e3d6ce258a87634186b428\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\9eb1ce56e4e3d6ce258a87634186b428\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+74            android:authorities="com.example.diagnosaallapps.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\9eb1ce56e4e3d6ce258a87634186b428\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\9eb1ce56e4e3d6ce258a87634186b428\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\9eb1ce56e4e3d6ce258a87634186b428\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\9eb1ce56e4e3d6ce258a87634186b428\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\9eb1ce56e4e3d6ce258a87634186b428\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\0d7553ee90aa5175a14ca0daaaec689e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\0d7553ee90aa5175a14ca0daaaec689e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\0d7553ee90aa5175a14ca0daaaec689e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+82            <meta-data
+82-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+83-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:32:17-85
+84                android:value="androidx.startup" />
+84-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:33:17-49
+85        </provider>
+86
+87        <receiver
+87-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:36:9-45:20
+88            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+88-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:37:13-76
+89            android:directBootAware="false"
+89-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:38:13-44
+90            android:enabled="true"
+90-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:39:13-35
+91            android:exported="true"
+91-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:40:13-36
+92            android:permission="android.permission.DUMP" >
+92-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:41:13-57
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:42:13-44:29
+94                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:17-91
+94-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\Anas Bahiyu Sakti\.gradle\caches\transforms-3\a4d9b3c5237ac51344e46ed27f15ce25\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:25-88
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>
